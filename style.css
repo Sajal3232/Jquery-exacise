@@ -1,11 +1,8 @@
-.mydiv{
-    height: 200px;
-    width: 200px;
-    border: 1px solid red;
+.mainimage{
+    height: 300px;
+    width: 300px;
 }
-.style1{
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
+.subimage{
+    height: 40px;
+    width: 100px;
 }

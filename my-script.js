@@ -1,17 +1,35 @@
-$("#first").keyup(function(){
-    var firstName=$("#first").val();
-    $("#res1").text(firstName);
+$("#img1").click(function(){
+    var imagevalue=$(this).attr("src");
+    $(".mainimage").attr("src",imagevalue);
 })
-$("#last").keyup(function(){
-    var lastName=$("#last").val();
-    $("#res2").text(lastName);
+$("#img2").click(function(){
+    var imagevalue=$(this).attr("src");
+    $(".mainimage").attr("src",imagevalue);
 })
 
-$("#last").blur(function(){
-   var firstName= $("#first").val();
-   var lastName= $("#last").val();
-   $("#res3").text(firstName+ ' '+lastName);
-});
+$("#img3").click(function(){
+    var imagevalue=$(this).attr("src");
+    $(".mainimage").attr("src",imagevalue);
+})
+
+
+
+
+
+// $("#first").keyup(function(){
+//     var firstName=$("#first").val();
+//     $("#res1").text(firstName);
+// })
+// $("#last").keyup(function(){
+//     var lastName=$("#last").val();
+//     $("#res2").text(lastName);
+// })
+
+// $("#last").blur(function(){
+//    var firstName= $("#first").val();
+//    var lastName= $("#last").val();
+//    $("#res3").text(firstName+ ' '+lastName);
+// });
 
 
 

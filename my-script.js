@@ -1,9 +1,28 @@
-$("#btn-1").click(function(){
+$("#first").keyup(function(){
     var firstName=$("#first").val();
-    var lastName=$("#last").val();
-    var fullName=firstName+' '+lastName;
-    $("#full").val(fullName);
+    $("#res1").text(firstName);
 })
+$("#last").keyup(function(){
+    var lastName=$("#last").val();
+    $("#res2").text(lastName);
+})
+
+$("#last").blur(function(){
+   var firstName= $("#first").val();
+   var lastName= $("#last").val();
+   $("#res3").text(firstName+ ' '+lastName);
+});
+
+
+
+
+
+// $("#btn-1").click(function(){
+//     var firstName=$("#first").val();
+//     var lastName=$("#last").val();
+//     var fullName=firstName+' '+lastName;
+//     $("#full").val(fullName);
+// })
 
 
 // $("#btn").click(function(){
